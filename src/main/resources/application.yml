@@ -1,0 +1,11 @@
+custom:
+  project:
+    root:
+      name: bss
+      path: .${custom.project.root.name}
+server:
+  servlet:
+    context-path: /${custom.project.root.name}
+springdoc:
+  api-docs:
+    path: /api-docs

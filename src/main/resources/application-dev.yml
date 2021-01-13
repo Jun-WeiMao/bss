@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: ${custom.jpa.show-sql:false}
+    generate-ddl: ${custom.jpa.generate-ddl:false}
+  datasource:
+    url: jdbc:h2:file:${HOME}/${custom.project.root.path}/${custom.database.dbname:local_${custom.project.root.name}};DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE
+    driverClassName: org.h2.Driver
+    username: ${custom.database.username:sa}
+    password: ${custom.database.password:}
+  h2:
+    console:
+      path: /h2
+      enabled: ${custom.database.h2.enabled:false}
+custom:
+  jpa:
+    show-sql: true
+    generate-ddl: true
+  database:
+    dbname: dev_${custom.project.root.name}
+    username: sa
+    password:
+    h2:
+      enabled: true

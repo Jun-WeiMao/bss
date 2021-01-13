@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "custom.jpa.show-sql",
+      "type": "java.lang.Boolean",
+      "description": "Description for custom.jpa.show-sql."
+    },
+    {
+      "name": "custom.jpa.generate-ddl",
+      "type": "java.lang.Boolean",
+      "description": "Description for custom.jpa.generate-ddl."
+    },
+    {
+      "name": "custom.database.dbname",
+      "type": "java.lang.String",
+      "description": "Description for custom.database.dbname."
+    },
+    {
+      "name": "custom.database.username",
+      "type": "java.lang.String",
+      "description": "Description for custom.database.username."
+    },
+    {
+      "name": "custom.database.password",
+      "type": "java.lang.String",
+      "description": "Description for custom.database.password."
+    },
+    {
+      "name": "custom.database.h2.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Description for custom.database.h2.enabled."
+    },
+    {
+      "name": "custom.project.root.path",
+      "type": "java.lang.String",
+      "description": "Description for custom.project.root.path."
+    },
+    {
+      "name": "custom.project.root.name",
+      "type": "java.lang.String",
+      "description": "Description for custom.project.root.name."
+    }
+  ]
+}
